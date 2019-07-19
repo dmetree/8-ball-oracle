@@ -1,0 +1,38 @@
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card{
+  border: 1px indigo solid;
+  border-radius: 25px;
+  width: 150px;
+  height: 150px;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+}
+
+
+.content{
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+  text-transform: uppercase;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+button{
+  height: 30px;
+  width: 140px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.askMe{
+  background-color: violet;
+  font-size: 14px;
+}
